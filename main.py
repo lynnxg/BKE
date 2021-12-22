@@ -13,6 +13,9 @@ class MyAgent(MLAgent):
     
  
 my_agent = MyAgent()
+my_agent = load('MyAgent_3000')
+ 
+my_agent.learning = False
  
 train(my_agent, 3000)
  
