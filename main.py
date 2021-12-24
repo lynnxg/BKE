@@ -26,7 +26,7 @@ train_and_plot(
     validations=1000)
 
 
-my_agent.learning = False
+
 
 validation_agent = RandomAgent()
  
