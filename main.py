@@ -16,13 +16,13 @@ random.seed(1)
  
 my_agent = load('MyAgent_3000')
 random_agent = RandomAgent()
-my_agent = MyAgent(alpha=0.8, epsilon=0.2)
+my_agent = MyAgent(alpha=0.9, epsilon=0.1)
  
 train_and_plot(
     agent=my_agent,
     validation_agent=random_agent,
     iterations=50,
-    trainings=100,
+    trainings=400,
     validations=1000)
 
 
